@@ -35,7 +35,7 @@ form {
   width: 95%;
   background-color: #eee;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   display: flex;
   justify-content: space-between;
 }
@@ -43,7 +43,7 @@ form .text-box {
   width: 70%;
   height: 40px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   outline: none;
   border: none;
   font-size: 25px;
@@ -52,7 +52,7 @@ form .button-add {
   color: white;
   background-color: green;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
   cursor: pointer;
   width: 15%;
@@ -65,7 +65,7 @@ form .button-add {
   padding: 20px;
   width: 95%;
   background-color: #eee;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .tasks-view p {
@@ -79,13 +79,13 @@ form .button-add {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .tasks-view .tasks .one-task div {
   background-color: white;
   padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 80%;
   font-size: 25px;
 }
