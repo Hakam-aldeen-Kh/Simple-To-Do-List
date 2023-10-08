@@ -6,14 +6,11 @@ let clearAll = document.querySelector(".clear");
 let taskArray = [];
 
 window.addEventListener("load", function () {
-  console.log("welcom");
   if (window.localStorage.getItem("tasks")) {
-    console.log("welcom if");
     taskArray = JSON.parse(localStorage.getItem("tasks"));
     addToPage(taskArray);
   } 
   textBox.focus();
-  console.log("wel");
 });
 
 function loadTasks() {}
