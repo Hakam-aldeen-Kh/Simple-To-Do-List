@@ -5,7 +5,7 @@ User
 }
 
 .counter {
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 
@@ -13,31 +13,26 @@ User
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 80%;
   text-align: center;
-  margin: 30px auto;
-  font-size: 40px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  font-size: 50px;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 .title .O {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: green;
   border-radius: 50%;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: white;
-  justify-content: center;
-  align-items: center;
 }
 
 form {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 40px auto 10px auto;
-  width: 80%;
+  width: 95%;
   background-color: #eee;
   padding: 20px;
   border-radius: 10px;
@@ -46,10 +41,12 @@ form {
 }
 form .text-box {
   width: 70%;
+  height: 40px;
   padding: 10px;
   border-radius: 5px;
   outline: none;
   border: none;
+  font-size: 25px;
 }
 form .button-add {
   color: white;
@@ -59,13 +56,14 @@ form .button-add {
   padding: 10px;
   cursor: pointer;
   width: 15%;
+  font-size: 20px;
 }
 
 .tasks-view {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: auto;
   padding: 20px;
-  width: 80%;
+  width: 95%;
   background-color: #eee;
   border-radius: 10px;
 }
@@ -74,7 +72,7 @@ form .button-add {
   text-align: center;
   margin-bottom: 10px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .tasks-view .tasks .one-task {
@@ -85,15 +83,16 @@ form .button-add {
 
 .tasks-view .tasks .one-task div {
   background-color: white;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 5px;
   border-radius: 10px;
   width: 80%;
+  font-size: 25px;
 }
 
 .check-button {
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background-color: white;
   border: none;
@@ -119,7 +118,7 @@ form .button-add {
   font-weight: bold;
   margin-top: -5px;
   margin-bottom:20px ;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -136,18 +135,18 @@ form .button-add {
     display: inline;
   }
   .check-button {
-    width: 40px;
-  height: 40px;
+    width: 60px;
+  height: 60px;
   }
 }
 @media (min-width: 992px) {
   .counter {
-    width: 50%;
+    width: 600%;
   }
 }
 @media (min-width: 1200px) {
   .counter {
-    width: 40%;
+    width: 50%;
   }
 }
 
